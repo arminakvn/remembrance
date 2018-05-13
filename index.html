@@ -12,22 +12,31 @@
   <link rel="stylesheet" type="text/css" href="semantic.css">
   <link rel="stylesheet" type="text/css" href="grid.css">
 
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src='mapbox-gl.js'></script>
+  <link href='mapbox-gl.css' rel='stylesheet' />
+
   <script src="semantic.js"></script>
-<script src="script.js"></script>
+
 </head>
 <body id="home">
   <div class="ui vertical segment">
     <div class="ui stackable left aligned page grid">
+
       <div class="row">
+        <div id="map"></div>
         <div class="four wide column">
+
           <div class="column">
             </div>
             <div class="column">
+
           <h1 class="ui header">
             <!-- <i class="refresh icon"></i> -->
-            express + gcloud + semantic-ui + docker  
+            <!-- express + gcloud + semantic-ui + docker -->
           </h1>
+
+          <!--
           <h2>
           </h2>
           <h2>
@@ -37,13 +46,13 @@
           <h4>
           </h4>
           <h4>
-          </h4>
+          </h4> -->
           </div>
-          <div class="ui horizontal divider"></div>
 
         </div>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
